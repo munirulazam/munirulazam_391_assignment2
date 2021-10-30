@@ -1,0 +1,107 @@
+body{
+    background-color: bisque;
+
+}
+
+h1, h3, h6{
+    text-align: center;
+}
+#quotebox{
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#heroconverter{
+    border: 1px solid lightgreen;
+    background-color: antiquewhite;
+    max-width: 50%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#quote-body{
+    
+    border: 1px solid lightgreen;
+    background-color: antiquewhite;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#colors{
+    display: grid;
+    grid-template-rows: repeat(2, 40fr);
+    grid-template-columns: repeat(2, 40fr);
+    gap: 10px;
+    
+
+}
+
+#yellow{
+    padding: 10px 15px;
+    background-color: yellow;
+    border: 10px solid white;
+    border-radius: 10px;
+    height: 10px;
+    width: 10px;
+}
+#red{
+    padding: 10px 15px;
+    background-color: red;
+    border: 10px solid white;
+    border-radius: 10px;
+    height: 10px;
+    width: 10px;
+}
+#blue{
+    padding: 10px 15px;
+    background-color: blue;
+    border: 10px solid white;
+    border-radius: 10px;
+    height: 10px;
+    width: 10px;
+}
+#green{
+    padding: 10px 15px;
+    background-color: green;
+    border: 10px solid white;
+    border-radius: 10px;
+    height: 10px;
+    width: 10px;
+}
+
+#input_num{
+    height: 20px;
+    width: 100px;
+    margin-left: 10px;
+
+}
+
+#part3 button{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    margin-left: 48%;
+    margin-right: 50%;
+}
+
+#magic{
+    background-color: grey;
+}
+
+#magic-box{
+    text-align: center;
+
+}
+
+#textarea{
+    margin: 10px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="quotebox">
+        <h1 style="display: block; text-align: center;"> Quote Box</h1>
+        <br>
+        <div id="quote-body">
+
+
+        </div>
+
+        <div id="colors">
+
+            <button id="yellow"> </button>
+            <button id="red"> </button>
+            <button id="blue"> </button>
+            <button id="green"> </button>
+        </div>
+    </div>
+
+    <div id="heroconverter">
+        <h4>Converter</h4>
+        <input type="number" id="inputNum">
+        <select name="values" id="converter">
+            <option value=1 id="kg">LBS to KG</option>
+            <option value=2 id="lbs">KG to LBS</option>
+        </select>
+        <button type="submit" onclick="convert()"> Go </button>
+        <p id="result"></p>
+    </div>
+    <hr>
+    <div class="part2">
+        <h1>Part 2</h1>
+        <h6>please press enter after every input change.
+        </h6>
+        <h3>
+            Input Series of Number
+            <input type="text" id="input_num" onkeydown="inputseries()">
+        </h3>
+
+        <h3>
+            Max:
+            <span id="max"></span>
+        </h3>
+        <h3>
+            Min:
+            <span id="min"></span>
+        </h3>
+        <h3>
+            Sum:
+            <span id="sum"></span>
+        </h3>
+        <h3>
+            Average:
+            <span id="average"></span>
+        </h3>
+        <h3>
+            Reverse Order:
+            <span id="reverse"></span>
+        </h3>
+    </div>
+
+    <div id="part3">
+        <button onclick="window.location='magic.html'">Magic</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
